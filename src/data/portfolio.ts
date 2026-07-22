@@ -1,4 +1,7 @@
 import type { PortfolioData } from '../types'
+import profile from '../assets/myimg.png'
+import resume from '../assets/Akshay_Resume.pdf'
+import imageProj1 from '../assets/imageProj1.png'
 
 export const portfolioData: PortfolioData = {
   name: 'AKSHAY CHAUDHARY',
@@ -6,8 +9,8 @@ export const portfolioData: PortfolioData = {
   tagline:
     'Full-stack developer pursuing MCA with industry experience building production-grade platforms and SaaS products.Experienced in collaborating across teams, translating requirements into scalable solutions, and delivering business- focused outcomes.Strong interest in technology transformation, product thinking, and solving real - world business challenges',
   email: 'akshaypunia.info@gmail.com',
-  profilePhoto: '../../src/assets/myimg.png',
-  resumeUrl: '../../src/assets/Akshay_Resume.pdf',
+  profilePhoto: profile,
+  resumeUrl: resume,
   resumeFileName: 'Akshay_Resume.pdf',
 
   about: {
@@ -100,7 +103,7 @@ export const portfolioData: PortfolioData = {
       name: 'API Monitoring and Alerting System',
       description:
         'API Monitoring SaaS is a platform that helps developers monitor API uptime, latency, and failures across multiple projects from a centralized dashboard. It features automated health checks, secure authentication-aware monitoring, historical performance analytics, and persistent logging for debugging and observability, while safely handling non-idempotent APIs to prevent unintended data modifications.',
-      image: '../../src/assets/imageProj1.png',
+      image: imageProj1,
       techStack: ['Next.js', 'Tailwind', 'PostgreSQL', 'Node.js', 'Prisma', 'express.js', 'Git'],
       githubUrl: '',
       liveUrl: 'https://api-sentinal.vercel.app/',

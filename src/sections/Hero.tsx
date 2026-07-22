@@ -1,6 +1,5 @@
 import { HiArrowDown } from 'react-icons/hi'
 import { motion } from 'framer-motion'
-import { Button } from '../components/ui/Button'
 import { ResumeDownloadButton } from '../components/ui/ResumeDownloadButton'
 import { ProfileImage } from '../components/ui/ProfileImage'
 import { FadeIn } from '../components/ui/FadeIn'
