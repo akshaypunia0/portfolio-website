@@ -2,6 +2,7 @@ import type { PortfolioData } from '../types'
 import profile from '../assets/myimg.png'
 import resume from '../assets/Akshay_Resume.pdf'
 import imageProj1 from '../assets/imageProj1.png'
+import imageSS from '../assets/ssimage.png'
 
 export const portfolioData: PortfolioData = {
   name: 'AKSHAY CHAUDHARY',
@@ -128,6 +129,16 @@ export const portfolioData: PortfolioData = {
       githubUrl: 'https://github.com/akshaypunia0/zorvyn-finance-access-control-backend',
       liveUrl: 'https://zorvyn-finance-access-control-backend.onrender.com/docs',
     },
+    {
+      id: 'proj-4',
+      name: 'SnapTab – Chrome Screenshot Extension',
+      description:
+        "SnapTab is a Chrome Extension that displays the active tab's title and URL, allowing users to capture a screenshot with a single click. After capture, it instantly previews the screenshot and automatically downloads it, providing a fast and seamless screenshot experience with a clean, user-friendly interface.",
+      image: imageSS,
+      techStack: ['Node.js','React.js', 'TypeScript', 'Chrome Extension API (Manifest V3)', 'Chrome Tabs API', 'Chrome Capture API'],
+      githubUrl: 'https://github.com/akshaypunia0/Screenshot-chrome-extension',
+      liveUrl: '',
+    },
   ],
 
   openSource: [
@@ -136,7 +147,7 @@ export const portfolioData: PortfolioData = {
       name: 'rbac-express-auth',
       description:
         'Developed an open-source Express.js middleware package to simplify Role-Based Access Control (RBAC) with JWT authentication and permission-based route protection. Designed for easy integration, reusable architecture, and production-ready authorization workflows in Node.js applications. Published on npm with 110+ downloads, demonstrating practical experience in building and maintaining open-source developer tools.',
-      downloads: '110+ Downloads',
+      downloads: '100+ Downloads',
       githubUrl: 'https://github.com/akshaypunia0/RBAC-auth-npm-package',
       npmUrl: 'https://www.npmjs.com/package/rbac-express-auth',
     }
